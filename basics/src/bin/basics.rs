@@ -4,6 +4,7 @@ use basics::lib_if;
 use basics::lib_bindings;
 use basics::lib_functions;
 use basics::lib_compounds;
+use basics::lib_match;
 
 fn main() {
     println!("main function called!");
@@ -18,4 +19,6 @@ fn main() {
     lib_compounds::my_tuples();
     lib_compounds::my_structs();
     lib_compounds::my_enums();
+
+    lib_match::test();
 }
