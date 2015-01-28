@@ -5,6 +5,10 @@ use basics::lib_bindings;
 use basics::lib_functions;
 use basics::lib_compounds;
 use basics::lib_match;
+use basics::lib_loop;
+use basics::lib_string;
+use basics::lib_arrays;
+use basics::lib_stdio;
 
 fn main() {
     println!("main function called!");
@@ -21,4 +25,12 @@ fn main() {
     lib_compounds::my_enums();
 
     lib_match::test();
+
+    lib_loop::test(); 
+
+    lib_string::test();
+
+    lib_arrays::test();
+
+    lib_stdio::test();
 }
